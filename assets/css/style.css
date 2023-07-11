@@ -116,7 +116,6 @@ header h1 {
     }
 
     .search-result {
-        height: 200px;
         width: 48%;
         object-fit: cover;
     }
@@ -128,9 +127,12 @@ header h1 {
 
 @media only screen and (max-width: 400px) {
     .search-result {
-        height: 200px;
         object-fit: cover;
         width: 48%;
+    }
+
+    .search-result a {
+        font-size: 14px;
     }
 
     .search-box input {
